@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>web đăng ký</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <div class="banner-logo">
+      <img class="banner" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiExQEafADsDmncku1E3JWCl1eU6P3Pf9K-2GiBKGMuSUD2ucvnmphRBe4iPtHHRUOJtnq-Ws0b3FcuZmX05vJurfvHkVl0_gqkDlF6CccgXh6-YClJ4tWv-WGWyHwMPpexpFHtxU0_OwslGno666-wu2aaBz_7JJEwZvvmBzItA9s07wnpKOFvidKVwSct/s16000/Welcome%20to%20Anh%20Tu%20IT.png" alt="Banner của trang web">
+      <img class="logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaUQSjIRrxX-cbwJcWmlpyGVNgNGH4WDuV75bsuSFZarFmgTnxtGA5_d2QeAbGeJ8cs0KUyc6Prw6k8erAxU5SVHWSkh0so1UGiArlbkhcuQGqutFslsZTz2HY8CivvNrC2Al1IAZmFKECx7havt6Cu8pnTUVwzqvjTXWyQ4bo3GS4d4t_ZT83vPY4QPBx/s221/anh%20t%C3%BA%20it%20.png" alt="Logo của trang web">
+    </div>
+  <h1 class="slogan"><b>Chào mừng bạn đến với trang web của tôi</b></h1>
+  </header>
+  <div>
+    <h2>Đăng ký thông tin người dùng</h2>
+    <form id="thongtin" onsubmit="return validateForm()">
+      <label for="name"><b>Họ và tên</b></label>
+      <input type="text" id="name" name="name" maxlength="50" required>
+      <label for="email"><b>Email</b></label>
+      <input type="email" id="email" name="email" required>
+      <label for="phone"><b>Số điện thoại</b></label>
+      <input type="text" id="phone" name="phone" required>
+      <label><b>Giới tính</b></label>
+      <input type="radio" name="gioitinh" value="Nam" required> Nam
+      <input type="radio" name="gioitinh" value="Nữ" required> Nữ
+      <label><b>Sở thích:</b></label>
+      <input type="checkbox" name="sothich" value="Thể thao"> Thể thao
+      <input type="checkbox" name="sothich" value="Phim ảnh"> Phim ảnh
+      <input type="checkbox" name="sothich" value="Đọc sách"> Đọc sách
+      <input type="checkbox" name="sothich" value="Âm nhạc"> Âm nhạc
+      <input type="checkbox" name="sothich" value="Khác"> Khác
+      <label for="gtbanthan"><b>Giới thiệu bạn thân</b></label>
+      <textarea name="gtbanthan" id="gtbanthan"></textarea>
+      <button type="dangky"><b>Đăng ký</b></button>
+    </form>
+  </div>
+  <div id="result" class="" style="display: block;">
+    <p>abc</p>
+  </div>
+  <footer>
+    <p>Tên sinh viên-Email-Lớp</p>
+</footer>
+<script> scr=""</script>
+</body>
+</html>
+
